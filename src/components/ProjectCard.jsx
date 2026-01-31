@@ -19,7 +19,7 @@ const ProjectCard = ({ project, index }) => {
     >
       <div style={{ height: '220px', overflow: 'hidden' }}>
         <img 
-          src={`/img/${project.image}`} 
+          src={`${import.meta.env.BASE_URL}img/${project.image}`} 
           alt={project.title}
           style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.5s' }}
         />

@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section style={{ padding: '4rem 2rem', textAlign: 'center', maxWidth: '800px', margin: '0 auto' }}>
       <motion.img 
-        src="/img/nevo_black&white.jpg" 
+        src={`${import.meta.env.BASE_URL}img/nevo_black&white.jpg`} 
         alt="Profile"
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
