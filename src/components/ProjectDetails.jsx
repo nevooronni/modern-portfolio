@@ -6,6 +6,7 @@ import { FaGithub, FaExternalLinkAlt, FaArrowLeft } from 'react-icons/fa';
 const ProjectDetails = () => {
   const { id } = useParams();
   const project = projects.find(p => p.id === id);
+  console.log(project);
 
   if (!project) return <div style={{ padding: '2rem', textAlign: 'center' }}>Project not found</div>;
 
@@ -24,7 +25,7 @@ const ProjectDetails = () => {
         <motion.img 
           initial={{ x: -50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
-          src={`/img/${project.image}`} 
+          src={`${import.meta.env.BASE_URL}/img/${project.image}`} 
           alt={project.title}
           style={{ width: '100%', borderRadius: '12px', boxShadow: '0 8px 16px rgba(0,0,0,0.5)' }}
         />
@@ -62,12 +63,13 @@ const ProjectDetails = () => {
           </div>
 
           <div style={{ display: 'flex', gap: '1rem' }}>
-            <a href={project.repoLink} target="_blank" rel="noopener noreferrer" style={{
+            <a href={project.repoLink} target={project.repoLink === '#' ? '_self' : '_blank'} rel="noopener noreferrer" style={{
               display: 'flex', alignItems: 'center', gap: '0.5rem',
               padding: '0.8rem 1.5rem', background: '#333', color: 'white',
-              textDecoration: 'none', borderRadius: '8px', fontWeight: 'bold'
+              textDecoration: 'none', borderRadius: '8px', fontWeight: 'bold',
+              cursor: project.repoLink === '#' ? 'not-allowed' : 'pointer'
             }}>
-              <FaGithub /> Repository
+              <FaGithub /> Repository {project.repoLink === '#' && '(Private)'}
             </a>
             <a href={project.liveLink} target="_blank" rel="noopener noreferrer" style={{
               display: 'flex', alignItems: 'center', gap: '0.5rem',

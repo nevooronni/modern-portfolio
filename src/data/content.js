@@ -1,5 +1,91 @@
 export const projects = [
   {
+    id: "stagepass",
+    title: "StagePass",
+    shortDescription: "An events ticketing platform",
+    fullDescription: "An events ticketing platform that allows users to purchase tickets for events and also for event organizers to sell tickets for their events and collect payments.",
+    techStack: ["Next", "Tanstack", "cloudflare", "Vercel"],
+    image: "lemonade5.png",
+    repoLink: "#",
+    liveLink: "https://stagepass.vip/"
+  },
+  {
+    id: "stagepass_backend",
+    title: "StagePass Events Backend",
+    shortDescription: "An events ticketing platform backend system",
+    fullDescription: "backend system for stagepass An events ticketing platform that allows users to purchase tickets for events and also for event organizers to sell tickets for their events and collect payments.",
+    techStack: ["Nest.js", "PostgreSQL", "Digital Ocean", "Docker"],
+    image: "lemonade1.png",
+    repoLink: "#",
+    liveLink: "https://stagepass.vip/docs/#"
+  },
+  {
+    id: "twiga_mobile",
+    title: "Twiga DMS Mobile",
+    shortDescription: "A mobile app for twiga called for Data Management System",
+    fullDescription: "A data management system for Twiga Foods. Incorporates features for adding new users, assigning roles, harvest management, sourcing management, sales management, and processing management.",
+    techStack: ["React Native", "Expo", "EAS", "ios", "android"],
+    role: "Software Developer",
+    image: "twiga2.jpeg",
+    repoLink: "#",
+    liveLink: "https://play.google.com/store/apps/details?id=com.twigafoods.soko&hl=en"
+  },
+  {
+    id: "twiga_mobile_2",
+    title: "Twiga Soko Yetu Mobile",
+    shortDescription: "A mobile app for twiga called Soko Yetu for for deliveries",
+    fullDescription: "Soko Yetu Android App brings Twiga Foods' self ordering platform closer to you. With only a tap of the app you can access features such as placing orders, viewing deliveries made to you and making your payments to Twiga among other features",
+    techStack: ["React Native", "Expo", "EAS", "ios", "android"],
+    role: "Software Developer",
+    image: "twiga4.png",
+    repoLink: "#",
+    liveLink: "https://play.google.com/store/apps/details?id=ke.twiga.shop&hl=en"
+  },
+  {
+    id: "lemonade_mobile",
+    title: "Lemonade Mobile",
+    shortDescription: "A mobile app for lemonade payments operating across multiple Africa countries",
+    fullDescription: "A comprehensive mobile app for lemonade payments enables collections via M-PESA, Airtel Money, and cards, along with instant, bulk transfers and multi-currency, secure transactions to reduce operational friction. ",
+    techStack: ["React Native", "Expo", "EAS", "ios", "android"],
+    role: "Software Developer",
+    image: "lemonade3.png",
+    repoLink: "#",
+    liveLink: "https://play.google.com/store/apps/details?id=com.nyasi01.lemonade&hl=en"
+  },
+  {
+    id: "lemonade_business",
+    title: "Lemonade Business",
+    shortDescription: "Business payments system for lemonade payments operating across multiple Africa countries",
+    fullDescription: "A comprehensive business payments system for lemonade payments enables collections via M-PESA, Airtel Money, and cards, along with instant, bulk transfers and multi-currency, secure transactions to reduce operational friction. ",
+    techStack: ["Next.js", "React.JS", "Vercel", "Cloudflare"],
+    role: "Software Developer",
+    image: "lemonade2.png",
+    repoLink: "#",
+    liveLink: "https://dashboard.mylemonade.io/dashboard"
+  },
+  {
+    id: "lemonade",
+    title: "Lemonade Payments system",
+    shortDescription: "Backend system for Lemonade Payments operating across multiple Africa countries",
+    fullDescription: "A comprehensive business payments system for lemonade payments enables collections via M-PESA, Airtel Money, and cards, along with instant, bulk transfers and multi-currency, secure transactions to reduce operational friction and cross border payments.",
+    techStack: ["Node.js", "PostgreSQL", "Digital Ocean", "Docker"],
+    role: "Software Developer",
+    image: "lemonade1.png",
+    repoLink: "#",
+    liveLink: "https://docs.mylemonade.io/"
+  },
+  {
+    id: "workpay_mobile",
+    title: "Workpay Africa Mobile",
+    shortDescription: "HR payroll software for Workpay Africa. Enables user to process payroll, manage time & attendance & NHIF, NSSF & PAYE calculators.",
+    fullDescription: "A comprehensive HR and payroll solution mobile app designed for African businesses. Includes features for automated payroll processing, statutory deductions (NHIF, NSSF, PAYE), employee management, and time tracking.",
+    techStack: ["Node.js", "MySQL", "ReactJS", "Digital Ocean"],
+    role: "Software Developer",
+    image: "workpay1.png",
+    repoLink: "#",
+    liveLink: "https://play.google.com/store/apps/details?id=com.workpay.workpay&hl=en&gl=US"
+  },
+  {
     id: "workpay",
     title: "Workpay Africa",
     shortDescription: "HR payroll software for Workpay Africa. Enables user to process payroll, manage time & attendance & NHIF, NSSF & PAYE calculators.",
@@ -8,7 +94,7 @@ export const projects = [
     role: "Software Developer",
     image: "workpay_login.png",
     repoLink: "#",
-    liveLink: "https://myworkpay.com/"
+    liveLink: "https://dashboard.myworkpay.com/login"
   },
   {
     id: "gals",
@@ -111,7 +197,7 @@ export const projects = [
   },
   {
     id: "anita",
-    title: "Career Site",
+    title: "Tarmaco career platform",
     shortDescription: "Career site for Tarmacnomore ltd.",
     fullDescription: "A career platform that allows users to register, create video profiles for potential employers, and pay for additional subscription services.",
     techStack: ["Bootstrap", "React-Bootstrap", "ReactJS", "Flask"],
@@ -142,20 +228,20 @@ export const projects = [
     repoLink: "https://github.com/nevooronni/custom-jitsi-meet",
     liveLink: "https://blucovideo.ml"
   },
-  {
-    id: "notification",
-    title: "Notification Service",
-    shortDescription: "Firebase chat/notification API.",
-    fullDescription: "A real-time chat and notification API built using Firebase Realtime Database. Enables seamless messaging where only authorized users can send messages.",
-    techStack: ["ReactJS", "Firebase"],
-    role: "Software Developer",
-    image: "firebase.png",
-    repoLink: "",
-    liveLink: "https://blucoadmin.ml"
-  },
+  // {
+  //   id: "notification",
+  //   title: "Notification Service",
+  //   shortDescription: "Firebase chat/notification API.",
+  //   fullDescription: "A real-time chat and notification API built using Firebase Realtime Database. Enables seamless messaging where only authorized users can send messages.",
+  //   techStack: ["ReactJS", "Firebase"],
+  //   role: "Software Developer",
+  //   image: "firebase.png",
+  //   repoLink: "",
+  //   liveLink: "https://blucoadmin.ml"
+  // },
   {
     id: "collab",
-    title: "Mpesa API Service",
+    title: "Mpesa API Plug and Play",
     shortDescription: "Mpesa C2B and B2C API package.",
     fullDescription: "A wrapper for Mpesa APIs including Lipa na Mpesa online. Allows processing of C2B and B2C transactions given the correct consumer keys, secrets, and Paybill numbers.",
     techStack: ["Python", "Flask", "PostgreSQL", "Digital Ocean"],
@@ -166,7 +252,7 @@ export const projects = [
   },
   {
     id: "instagram",
-    title: "Bluco API",
+    title: "Bluco Backend & API",
     shortDescription: "Comprehensive API service for Bluco.",
     fullDescription: "A backend API service allowing consumers to perform CRUD operations on Jobs, Employer, Employee, CV, Profile, Auth, and various other resources.",
     techStack: ["Flask", "PostgreSQL", "Digital Ocean"],
@@ -178,7 +264,7 @@ export const projects = [
 ];
 
 export const skills = [
-  "JavaScript", "Python", "ReactJS", "Node.js", "Dart", "Flask", "Django", "PostgreSQL", "SQL", "Firebase", "Docker", "Kubernetes", "AWS", "Google App Engine"
+  "JavaScript", "Python", "ReactJS", "Node.js", "Dart", "Flask", "Django", "PostgreSQL", "SQL", "Firebase", "Docker", "Kubernetes", "AWS", "Google App Engine", "Next.js", "Nest.js", "TypeScript", "MongoDB", "React Native", 'Expo'
 ];
 
 export const bio = {
