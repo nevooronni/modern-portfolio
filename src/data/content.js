@@ -2,9 +2,9 @@ export const projects = [
   {
     id: "stagepass",
     title: "StagePass",
-    shortDescription: "An events ticketing platform",
+    shortDescription: "An events ticketing platform backend system for event organizers, event attendees and event managers",
     fullDescription: "An events ticketing platform that allows users to purchase tickets for events and also for event organizers to sell tickets for their events and collect payments.",
-    techStack: ["Next", "Tanstack", "cloudflare", "Vercel"],
+    techStack: ["Next", "Tanstack", "cloudflare", "Vercel", "shadcn/ui"],
     image: "lemonade5.png",
     repoLink: "#",
     liveLink: "https://stagepass.vip/"
@@ -12,9 +12,9 @@ export const projects = [
   {
     id: "stagepass_backend",
     title: "StagePass Events Backend",
-    shortDescription: "An events ticketing platform backend system",
+    shortDescription: "An events ticketing platform backend system for event organizers, event attendees and event managers",
     fullDescription: "backend system for stagepass An events ticketing platform that allows users to purchase tickets for events and also for event organizers to sell tickets for their events and collect payments.",
-    techStack: ["Nest.js", "PostgreSQL", "Digital Ocean", "Docker"],
+    techStack: ["Nest.js", "PostgreSQL", "redis", "jenkins", "Digital Ocean", "Docker"],
     image: "lemonade1.png",
     repoLink: "#",
     liveLink: "https://stagepass.vip/docs/#"
@@ -22,9 +22,9 @@ export const projects = [
   {
     id: "twiga_mobile",
     title: "Twiga DMS Mobile",
-    shortDescription: "A mobile app for twiga called for Data Management System",
+    shortDescription: "A data management system for Twiga Foods. Incorporates features for adding new users, assigning roles, harvest management, sourcing management, sales management, and processing management.",
     fullDescription: "A data management system for Twiga Foods. Incorporates features for adding new users, assigning roles, harvest management, sourcing management, sales management, and processing management.",
-    techStack: ["React Native", "Expo", "EAS", "ios", "android"],
+    techStack: ["React Native", "Expo", "EAS", "ios", "android", "GraphQL"],
     role: "Software Developer",
     image: "twiga2.jpeg",
     repoLink: "#",
@@ -33,7 +33,7 @@ export const projects = [
   {
     id: "twiga_mobile_2",
     title: "Twiga Soko Yetu Mobile",
-    shortDescription: "A mobile app for twiga called Soko Yetu for for deliveries",
+    shortDescription: "A mobile app for twiga called Soko Yetu for for deliveries across multiple town and cities in Kneya",
     fullDescription: "Soko Yetu Android App brings Twiga Foods' self ordering platform closer to you. With only a tap of the app you can access features such as placing orders, viewing deliveries made to you and making your payments to Twiga among other features",
     techStack: ["React Native", "Expo", "EAS", "ios", "android"],
     role: "Software Developer",
@@ -44,7 +44,7 @@ export const projects = [
   {
     id: "lemonade_mobile",
     title: "Lemonade Mobile",
-    shortDescription: "A mobile app for lemonade payments operating across multiple Africa countries",
+    shortDescription: "A mobile app for lemonade payments operating across multiple Africa countries enabling both business and personal payments",
     fullDescription: "A comprehensive mobile app for lemonade payments enables collections via M-PESA, Airtel Money, and cards, along with instant, bulk transfers and multi-currency, secure transactions to reduce operational friction. ",
     techStack: ["React Native", "Expo", "EAS", "ios", "android"],
     role: "Software Developer",
@@ -57,7 +57,7 @@ export const projects = [
     title: "Lemonade Business",
     shortDescription: "Business payments system for lemonade payments operating across multiple Africa countries",
     fullDescription: "A comprehensive business payments system for lemonade payments enables collections via M-PESA, Airtel Money, and cards, along with instant, bulk transfers and multi-currency, secure transactions to reduce operational friction. ",
-    techStack: ["Next.js", "React.JS", "Vercel", "Cloudflare"],
+    techStack: ["Fastify", "PostgreSQL", "Redis", "Jenkins", "Digital Ocean", "Docker", "Next.js", "React.JS", "Vercel", "Cloudflare"],
     role: "Software Developer",
     image: "lemonade2.png",
     repoLink: "#",
@@ -68,7 +68,7 @@ export const projects = [
     title: "Lemonade Payments system",
     shortDescription: "Backend system for Lemonade Payments operating across multiple Africa countries",
     fullDescription: "A comprehensive business payments system for lemonade payments enables collections via M-PESA, Airtel Money, and cards, along with instant, bulk transfers and multi-currency, secure transactions to reduce operational friction and cross border payments.",
-    techStack: ["Node.js", "PostgreSQL", "Digital Ocean", "Docker"],
+    techStack: ["Node.js", "Express", "PostgreSQL", "Digital Ocean", "Docker"],
     role: "Software Developer",
     image: "lemonade1.png",
     repoLink: "#",
@@ -165,7 +165,7 @@ export const projects = [
   {
     id: "todo",
     title: "Job Portal",
-    shortDescription: "A job portal app built using ReactJS.",
+    shortDescription: "Bluco consultants job portal web app built for employers and candidates.",
     fullDescription: "A comprehensive job portal that allows users to register either as an employer or candidate. Employers can post jobs, while candidates can search and apply for positions.",
     techStack: ["Bootstrap", "React-Bootstrap", "ReactJS", "Node.js", "Python", "Digital Ocean"],
     role: "Software Developer",
@@ -264,12 +264,11 @@ export const projects = [
 ];
 
 export const skills = [
-  "JavaScript", "Python", "ReactJS", "Node.js", "Dart", "Flask", "Django", "PostgreSQL", "SQL", "Firebase", "Docker", "Kubernetes", "AWS", "Google App Engine", "Next.js", "Nest.js", "TypeScript", "MongoDB", "React Native", 'Expo'
+  "JavaScript", "Python", "ReactJS", "Express", "NestJS", "Dart", "Flask", "Django", "PostgreSQL", "MySQL", "MongoDB", "Redis", "Jenkins" , "GraphQL", "Socket.io", "RabbitMQ", "Kafka", "Firebase", "Docker", "Kubernetes", "AWS", "GCP", "NextJs", "TypeScript", "React Native", 'Expo'
 ];
 
 export const bio = {
   name: "Neville Oronni",
   title: "Senior Software Engineer & Team Leader",
-  intro: "I am a Senior Software Engineer and Team Leader with a passion for building scalable mobile and backend solutions.",
-  about: "With extensive experience in the full software development lifecycle, I have led teams to deliver robust applications using a diverse technology stack including React, React Native, Flutter, Node.js, Python, and Cloud Infrastructure (AWS, Google Cloud). I specialize in architecting efficient backend systems and intuitive mobile experiences."
+  intro: "Software Engineer with over 7 years of experience building performant backend and fontend systems with MERN stack for both web and mobile applications. Expertise in software design, databases, performance optimization, writing clean, testable code, and deploying scalable software solutions. Let's connect and build something amazing together."
 };

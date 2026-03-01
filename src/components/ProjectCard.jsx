@@ -30,7 +30,7 @@ const ProjectCard = ({ project, index }) => {
           {project.shortDescription}
         </p>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginBottom: '1.5rem' }}>
-          {project.techStack.slice(0, 3).map(tech => (
+          {project.techStack.map(tech => (
             <span key={tech} style={{ 
               background: 'rgba(255,255,255,0.05)', 
               padding: '4px 10px', 

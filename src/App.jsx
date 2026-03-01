@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import ProjectCard from './components/ProjectCard';
 import ProjectDetails from './components/ProjectDetails';
 import { projects } from './data/content';
+import MatrixBackground from './components/MatrixBackground';
 
 import About from './components/About';
 import Contact from './components/Contact';
@@ -29,6 +30,7 @@ const Home = () => (
 function App() {
   return (
     <Router basename={import.meta.env.BASE_URL}>
+      <MatrixBackground />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
