@@ -1,5 +1,15 @@
 export const projects = [
   {
+    id: "babbel_mobile",
+    title: "Babbel",
+    shortDescription: "Millions of people learn languages with Babbel — the app built by language learning experts. Our short, interactive lessons rethink old-school language education to get you speaking a new language with confidence.",
+    fullDescription: "Millions of people learn languages with Babbel — the app built by language learning experts. Our short, interactive lessons rethink old-school language education to get you speaking a new language with confidence. integrated with OpenAI API for AI based learning. LLM modles used GTP5, GPT4 omni",
+    techStack: ["React Native", "Expo", "EAS", "ios", "android", "GraphQL", "LLM", "OpenAI API"],
+    image: "babel.png",
+    repoLink: "#",
+    liveLink: "https://play.google.com/store/apps/details?id=com.babbel.mobile.android.en&referrer=adjust_reftag%3Dcy1Xa8gGTF8JF%26utm_source%3Dbackup_mobiletracking_%252Fmobile"
+  },
+  {
     id: "stagepass",
     title: "StagePass",
     shortDescription: "An events ticketing platform backend system for event organizers, event attendees and event managers",
