@@ -43,7 +43,7 @@ const ProjectCard = ({ project, index }) => {
             </span>
           ))}
         </div>
-        <Link to={`/project/${project.id}`} className="btn-primary" style={{ textDecoration: 'none', textAlign: 'center' }}>
+        <Link to={`/project/${project.id}`} className="btn-primary" style={{ textDecoration: 'none', textAlign: 'center', opacity: 0.8 }}>
           View Details
         </Link>
       </div>

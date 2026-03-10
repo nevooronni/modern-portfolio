@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section style={{ padding: '4rem 2rem', textAlign: 'center', maxWidth: '800px', margin: '0 auto' }}>
       <motion.img 
-        src={`${import.meta.env.BASE_URL}img/nevo_black&white.jpg`} 
+        src={`${import.meta.env.BASE_URL}img/nevo_matrix_background.png`} 
         alt="Profile"
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
@@ -14,7 +14,7 @@ const Hero = () => {
       />
       <motion.h1 
         initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
+        animate={{ opacity: 0.65, y: 0 }}
         transition={{ delay: 0.2 }}
         className="text-gradient"
         style={{ fontSize: '3.5rem', marginBottom: '0.5rem', fontWeight: 800 }}
@@ -25,6 +25,8 @@ const Hero = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
+        className="text-gradient"
+
         style={{ color: '#646cff', marginBottom: '1rem' }}
       >
         {bio.title}

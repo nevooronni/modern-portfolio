@@ -3,8 +3,8 @@
   --bg-card: #121212;
   --text-primary: #ffffff;
   --text-secondary: #a1a1aa;
-  --accent-primary: #8b5cf6; /* Violet */
-  --accent-secondary: #ec4899; /* Pink */
+  --accent-primary: #00ff41; /* Matrix Light Green */
+  --accent-secondary: #008f11; /* Matrix Dark Green */
   --accent-gradient: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
   --glass-bg: rgba(255, 255, 255, 0.03);
   --glass-border: rgba(255, 255, 255, 0.05);
