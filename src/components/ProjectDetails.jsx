@@ -17,7 +17,7 @@ const ProjectDetails = () => {
       exit={{ opacity: 0 }}
       style={{ padding: '2rem', maxWidth: '1000px', margin: '0 auto' }}
     >
-      <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#646cff', textDecoration: 'none', marginBottom: '2rem' }}>
+      <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--accent-primary)', textDecoration: 'none', marginBottom: '2rem' }}>
         <FaArrowLeft /> Back to Projects
       </Link>
       
@@ -49,9 +49,9 @@ const ProjectDetails = () => {
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.8rem', marginTop: '0.5rem' }}>
               {project.techStack.map(tech => (
                 <span key={tech} style={{ 
-                  background: 'rgba(100, 108, 255, 0.1)', 
-                  color: '#646cff',
-                  border: '1px solid rgba(100, 108, 255, 0.3)',
+                  background: 'rgba(0, 255, 65, 0.1)', 
+                  color: 'var(--accent-primary)',
+                  border: '1px solid rgba(0, 255, 65, 0.3)',
                   padding: '4px 12px', 
                   borderRadius: '20px', 
                   fontSize: '0.9rem' 
@@ -73,8 +73,9 @@ const ProjectDetails = () => {
             </a>
             <a href={project.liveLink} target="_blank" rel="noopener noreferrer" style={{
               display: 'flex', alignItems: 'center', gap: '0.5rem',
-              padding: '0.8rem 1.5rem', background: '#646cff', color: 'white',
-              textDecoration: 'none', borderRadius: '8px', fontWeight: 'bold'
+              padding: '0.8rem 1.5rem', background: 'var(--accent-primary)', color: 'white',
+              textDecoration: 'none', borderRadius: '8px', fontWeight: 'bold',
+              opacity: 0.8
             }}>
               <FaExternalLinkAlt /> Live Demo
             </a>
