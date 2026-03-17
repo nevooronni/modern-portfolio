@@ -292,5 +292,6 @@ export const skills = [
 export const bio = {
   name: "Neville Oronni",
   title: "Senior Software Engineer",
+  image: "nevo_profile_matrix.png",
   intro: "Software Engineer with over 7 years of experience building performant backend and fontend systems with MERN stack for both web and mobile applications. Expertise in software design, databases, performance optimization, writing clean, testable code, and deploying scalable software solutions. Let's connect and build something amazing together."
 };
