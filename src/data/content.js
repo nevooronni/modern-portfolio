@@ -293,5 +293,5 @@ export const bio = {
   name: "Neville Oronni",
   title: "Software Engineer",
   image: "nevo_profile_matrix.png",
-  intro: "Software Enginer experienced in building performant backend and fontend systems with MERN stack for both web and mobile. Expertise in software design, databases, performance optimization, writing clean, testable code, and deploying scalable software solutions. Let's connect and build something amazing together."
+  intro: "Software enginer experienced in building performant backend and fontend systems with MERN stack for both web and mobile. Expertise in software design, databases, performance optimization, writing clean, testable code, and deploying scalable software solutions. Let's connect and build something amazing together."
 };
